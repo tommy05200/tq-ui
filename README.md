@@ -1,4 +1,4 @@
-# demo-ui
+# tq-ui
 
 ## 简介
 
@@ -9,21 +9,21 @@
 1. 安装
 
 ```
-npm i demot-ui
+npm i tq-ui
 ```
 
 2. 全局注册
 
 ```js
-import DemoUI from 'demot-ui'
-Vue.use(DemoUI)
+import TqUI from 'tq-ui'
+Vue.use(TqUI)
 ```
 
 3. 按需导入
 
 ```js
-import DemoUI, { Button, Form } from 'demot-ui'
-Vue.use(DemoUI, {
+import TqUI, { Button, Form } from 'tq-ui'
+Vue.use(TqUI, {
   components: [Button, Form]
 })
 ```
@@ -31,7 +31,7 @@ Vue.use(DemoUI, {
 3. 导入样式
 
 ```js
-import 'demot-ui/dist/demot-ui.css'
+import 'demot-ui/dist/tq-ui.css'
 ```
 
 4. 导入 font-awesome 字体图标
